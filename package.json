@@ -1,0 +1,48 @@
+{
+  "name": "wp-acf-block-generator",
+  "version": "1.0.0",
+  "description": "Interactive WordPress ACF block generator with Tailwind CSS support",
+  "main": "lib/index.js",
+  "bin": {
+    "wp-block-gen": "bin/wp-block-gen.js",
+    "wp-acf-block-generator": "bin/wp-block-gen.js"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "test:interactive": "node bin/wp-block-gen.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "wordpress",
+    "acf",
+    "advanced-custom-fields",
+    "gutenberg",
+    "blocks",
+    "generator",
+    "scaffold",
+    "tailwind",
+    "interactive",
+    "cli"
+  ],
+  "author": "Kaweb",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "templates/",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaweb/wp-acf-block-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kaweb/wp-acf-block-generator/issues"
+  },
+  "homepage": "https://github.com/kaweb/wp-acf-block-generator#readme"
+}
